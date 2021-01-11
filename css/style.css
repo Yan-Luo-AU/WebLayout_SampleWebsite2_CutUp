@@ -1,0 +1,185 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: white;
+  margin: 0 auto;
+  padding: 0;
+  font-family: verdana, arial, sans-serif;
+}
+
+header{
+  margin: 0 auto;
+}
+
+
+ul{
+  list-style-type: none;
+  min-height: 60px;
+  background-color: #0088FF;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 21px 20px;
+  font-size: 1em;
+}
+
+ul:first-child {
+  padding-left: 20%;
+}
+
+#main-nav a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+
+
+	#main-nav a:hover:after {
+		content: " ";
+		display: block;
+		position: absolute;
+		top: calc(100% - 9px);
+		left: calc(50% - 9px);
+		width: 18px;
+		height: 18px;
+		transform: rotate(45deg);
+		background-color: inherit;
+	}
+
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.advertising{
+  margin-top: 0;
+  min-height: 440px;
+	padding-top: 50px;
+	background: url(../img/dancing-girl-background.jpg) no-repeat center top;
+}
+
+.logo{
+  position: relative;
+  left: 10%;
+}
+
+figure blockquote{
+  position: relative;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.7);
+  left: -3px;
+  top: 55px;
+  margin: 0;
+  width: 60%;
+  /* min-height: 200px; */
+  border: 1px solid #D6D1CE;
+  border-bottom-right-radius:70px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 10px;
+}
+
+blockquote p{
+  display: block;
+  margin-top: 10px;
+  font-size: 2em;
+  padding: 20px 70px 0 70px;
+  color: #555554;
+  line-height: 1.5em;
+  font-family: Times New Roman;
+  letter-spacing: 3px;
+}
+
+h1.blue{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight:normal;
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+  margin-top: 0;
+}
+
+.group{
+  display: flex;
+  margin: 10px;
+}
+
+.blue{
+  color:#0489FE;
+}
+
+cite{
+  position: relative;
+  left: 330px;
+  top: -20px;
+  font-size: 1em;
+  color: #555554;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.item{
+  border: 4px #0187FF solid;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px auto;
+  width: 255px;
+  height: 255px;
+}
+
+
+.item h2{
+  position: relative;
+  top:-100px;
+  text-align: center;
+  display:block;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: lighter;
+  font-size: 1.1em;
+  padding: 15px 20px 50px 20px;
+}
+
+br{
+  line-height: 150%;
+}
+
+.smaller-font{
+  font-size: 0.7em;
+  font-weight: normal;
+  line-height: 0.1;
+}
+
+.Copyright{
+  background-color: #0088FF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Copyright p{
+  display: block;
+  color: white;
+  padding: 0 100px;
+  margin-top: 0;
+  font-size: 0.8em;
+  color: #98d9ff;
+}
+
+footer a:hover{
+  color:#98d9ff;
+  background-color: #0088FF;
+}
